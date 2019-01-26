@@ -1,228 +1,297 @@
-<!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>flor fest</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,500,300,300italic,500italic|Roboto+Condensed:400,300" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+<link rel="icon" type="image/svg" href="assets/img/logo.svg">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>flor fest by SXC</title>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+<!--     Fonts and icons     -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+<link rel="stylesheet" href="assets/css/fontawesome/css/fontawesome-all.css" />
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
-    <link href="bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/bootstrap.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="scripts/modernizr.js"></script>
-  </head>
-  <body data-spy="scroll" data-target=".header" data-offset="80">
-    <!--if lt IE 9<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    -->
-    <div id="ip-container" class="ip-container">
-      <header class="ip-header">
-        <div class="ip-loader">
-          <svg width="60px" height="60px" viewBox="0 0 80 80" class="ip-inner">
-            <path d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" class="ip-loader-circlebg"></path>
-            <path id="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" class="ip-loader-circle"></path>
-          </svg>
-        </div>
-      </header>
-      <div class="ip-main">
-        <!-- Mobile nav -->
-        <div id="cbp-spmenu" class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
-          <div class="mobile_nav_close_button"><a id="hideRight" href=""><span class="close_icon zmdi zmdi-arrow-right"></span></a></div>
-          <nav id="mobile_menu_content" class="navbar-nav-mobile"><a href="#hero">Home</a><a href="#lineup">lineup</a><a href="#faq">FAQ</a><a href="#newsletter">Newsletter</a><a href="#contact">Contact</a></nav>
-        </div>
-        <header id="header" class="header navbar navbar-light animated">
-          <div class="container"><a href="#" class="navbar-brand"> <span class="logo">FF</span><span class="brand-txt">flor fest</span></a>
-            <div class="navbar">
-              <ul class="nav navbar-nav pull-right">
-                <li class="nav-item"><a href="#hero">Home</a></li>
-                <li class="nav-item"><a href="#lineup">lineup</a></li>
-                <li class="nav-item"><a href="#faq">FAQ                            </a></li>
-                <li class="nav-item"><a href="#newsletter">Newsletter</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
-              </ul>
-              <div class="pull-right togger-container"><span id="showRight" class="zmdi zmdi-menu navbar-toggler"></span></div>
-            </div>
-          </div>
-        </header>
-        <div class="main-content">
-          <div id="hero" class="hero">
-            <div class="hero-inner"> 
-              <div class="container">
-                <div class="col-lg-6 col-lg-offset-3">
-                  <h1 style = "font-family: Permanent Marker; font-size:700%; color: white;">flor fest</h1>
-                  <br>
-                  <br>
-                  <h2 style = "color:white">Created by ShifterXChi</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="lineup" class="lineup">
-            <header>
-              <h2 class="section-heading-underline">Festival lineup</h2>
-            </header>
-            <div class="container">
-              <div class="row">
-                <div class="feature-item col-md-4 text-center wow fadeInUp">
-                  <div class="icon-container"><span class="zmdi zmdi-palette"></span></div>
-                  <h3>Multiple Colors</h3>
-                  <div class="desc">
-                    <p>18 predefined color schemes</p>
-                  </div>
-                </div>
-                <div data-wow-delay="0.3s" class="feature-item col-md-4 text-center wow fadeInUp">
-                  <div class="icon-container"><span class="zmdi zmdi-view-web"></span></div>
-                  <h3>Powerful Layouts</h3>
-                  <div class="desc">
-                    <p>multiple layouts to choose from</p>
-                  </div>
-                </div>
-                <div data-wow-delay="0.6s" class="feature-item col-md-4 text-center wow fadeInUp">
-                  <div class="icon-container"><span class="zmdi zmdi-desktop-windows"></span></div>
-                  <h3>AngularJS Web App</h3>
-                  <div class="desc">
-                    <p>single page application with AngularJS</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="feature-item col-md-4 text-center wow fadeInUp">
-                  <div class="icon-container"><span class="zmdi zmdi-tablet-mac"></span></div>
-                  <h3>Responsive Design</h3>
-                  <div class="desc">
-                    <p>mobile-ready design adopt to any device</p>
-                  </div>
-                </div>
-                <div data-wow-delay="0.3s" class="feature-item col-md-4 text-center wow fadeInUp">
-                  <div class="icon-container"><span class="zmdi zmdi-edit"></span></div>
-                  <h3>Clean code</h3>
-                  <div class="desc">
-                    <p>simple and clean JavaScript code</p>
-                  </div>
-                </div>
-                <div data-wow-delay="0.6s" class="feature-item col-md-4 text-center wow fadeInUp">
-                  <div class="icon-container"><span class="zmdi zmdi-pin"></span></div>
-                  <h3>Internationalization</h3>
-                  <div class="desc">
-                    <p>internationalization and localization</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="faq" class="faq">
-            <div class="container">
-              <header>
-                <h2 class="section-heading-underline">FAQs</h2>
-              </header>
-              <ul class="faq-list">
-                <li class="wow fadeInLeft">
-                  <h4 class="faq-q">                 Why should I attend flor fest?
-</h4>
-                  <p class="faq-a">flor fest is a new concept for a festival to unite all of the local DIY/emo bands from the Midwest area for a festival. It will serve as a fun environment for high school and college students to enjoy great music. Majority of the profit will go towards The Trevor Project (a hotline for LGBTQ+ members to get help from professional counselors).</p>
-                </li>
-                <li class="wow fadeInRight">
-                  <h4 class="faq-q">Safety at flor fest</h4>
-                  <p class="faq-a">
-                  	
-                  	We want every fan to feel safe at the festival. Our Safety Page is the place to find our anti-harassment policy, get tips to come prepared, learn where and how to find help at the festival, and read about security measures we have in place. Specific questions regarding safety, security, medical, and any others can be directed to admin@florfestcu.com. If you have an immediate need while on-site seek out any festival staffer, police, fire, or security.
 
+<!-- CSS Files -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+<link href="assets/css/material-kit.css?v=1.2.1" rel="stylesheet"/>
+</head>
 
-                  </p>
-                </li>
-                <li data-wow-delay="0.15s" class="wow fadeInLeft">
-                  <h4 class="faq-q">What are the transportation methods to the festival?</h4>
-                  <p class="faq-a">
-                  	- Public Transportation via MTD buses (recommended due to limited parking)
-                  	<br>
-                  	- Driving (Effective only in Groups of 4+ concert goers)
-                  	<br>
-                  	- Uber &amp; Lyft (Fast & Reliable)
-                  </p>
-                </li>
-                <li data-wow-delay="0.15s" class="wow fadeInRight">
-                  <h4 class="faq-q">Will I be able to buy band and festival merch?</h4>
-                  <p class="faq-a">Yes! You can find band merch for any bands that decide to participate in our sales. We will only be taking Venmo and Cash for band merch sales. For festival merch, it is yet to be determined how many t-shirts will be ordered for the festival beforehand :(. We'll keep you all updated!</p>
-                </li>
-                <li data-wow-delay="0.3s" class="wow fadeInLeft">
-                  <h4 class="faq-q">Will there be alcoholic drinks served?</h4>
-                  <p class="faq-a">Unfornately, we are not going to be able to receive a liquor license for the first year of our festival. However, we won't stop you from bringing booze yourself if you're 21+. </p>
-                </li>
-                <li data-wow-delay="0.3s" class="wow fadeInRight">
-                  <h4 class="faq-q">When will my merch order ship out?</h4>
-                  <p class="faq-a">Most merch orders will printed out within 3 business days</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div id="newsletter" data-stellar-background-ratio="0.6" class="newsletter">
-            <h2>Sign up to Our newsletter</h2>
-            <form>
-              <fieldset>
-                <div class="form-group">
-                  <div class="ui-input-group">
-                    <input id="name_2" type="text" required class="form-control"><span class="input-bar"></span>
-                    <label>Email</label>
-                  </div>
-                </div><a href="javascript:;" type="submit" data-wow-delay="0.15s" class="btn btn-primary btn-lg btn-raised ui-wave wow fadeInUp">Subscribe</a>
-              </fieldset>
-            </form>
-          </div>
-          <div id="contact" class="contact">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-5">
-                  <h3 class="section-heading-underline">Contact Info</h3>
-                  <div class="contact-info-container wow fadeInLeft">
-                    <p class="lead"> Feel free to contact us, if you have any questions, we'll be glad to help.</p>
-                    <ul class="list-unstyled contact-info">
-                      <li> <span class="zmdi zmdi-pin"></span>Champaign, IL, 61820</li>
-                      <li><span class="zmdi zmdi-phone"></span>(773) 727 9507</li>
-                      <li><span class="zmdi zmdi-email"></span>admin@florfestcu.com</li>
-                      <li><span class="zmdi zmdi-city-alt"></span>www.florfestcu.com</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-5 col-md-offset-2">
-                  <h3 class="section-heading-underline">Contact Us</h3>
-                  <form novalidate class="form-horizontal wow fadeInRight">
-                    <fieldset>
-                      <div class="form-group">
-                        <div class="ui-input-group">
-                          <input type="text" required class="form-control"><span class="input-bar"></span>
-                          <label>Email</label>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="ui-input-group">
-                          <input type="text" required class="form-control"><span class="input-bar"></span>
-                          <label>Password</label>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="ui-input-group">
-                          <textarea type="text" required rows="5" class="form-control"></textarea><span class="input-bar"></span>
-                          <label>Message                                </label>
-                        </div>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="form-group">
-                        <button class="btn btn-raised btn-primary btn-w-sm ui-wave">SUBMIT</button>
-                      </div>
-                    </fieldset>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="action-call text-center"><span>Bloom with us! Coming in Spring '19</span></div>
+<body class="presentation-page">
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-color-on-scroll" id="sectionsNav">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html">flor fest</a> </div>
+    <div class="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li> <a href="index.html"> Home </a> </li>
+        <li> <a href="about-us.html"> About Us </a> </li>
+        <li> <a href="contact-us.html"> Contact Us </a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('assets/img/bg0.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="brand">
+          <h1>flor fest
+            <div class="pro-badge"> 2019 </div>
+          </h1>
+          <h3 class="title">Created by ShifterXChi</h3>
         </div>
-        <footer class="footer text-center"><span>© Copyright <span id="copyright"></span> flor poetry</span></footer>
       </div>
     </div>
-    <!-- Scripts-->
-    <script src="scripts/app.js"></script>
-  </body>
+  </div>
+</div>
+<div class="main main-raised">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="description text-center">April 5th @ Urbana-Champaign Independent Media Center</h1>
+        </div>
+      </div>
+      <div class="features-1">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Today's Children
+              </h4>
+              <p>Urbana, IL</p>
+              <a href="https://todayschildren.bandcamp.com/releases">
+              <div class="icon icon-info"> <i class="fab fa-bandcamp"></i> </div>
+              </a> </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Ghoul Jr.
+              </h4>
+              <p>Champaign, IL</p>
+              <a href="https://ghouljr.bandcamp.com/releases">
+              <div class="icon icon-info"> <i class="fab fa-bandcamp"></i> </div>
+              </a> </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Ex Okays
+              </h4>
+              <p>Chicago, IL</p>
+              <a href="https://exokays.bandcamp.com/">
+              <div class="icon icon-info"> <i class="fab fa-bandcamp"></i> </div>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="features-1">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Ex Cathedra
+              </h4>
+              <p>Urbana, IL</p>
+              <a href="https://excathedra.bandcamp.com/album/cosmic-mass-graves">
+              <div class="icon icon-info"> <i class="fab fa-bandcamp"></i> </div>
+              </a> </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Lost Wilderness
+              </h4>
+              <p>Park Ridge, IL</p>
+              <a href="https://soundcloud.com/lost-wilderness/tracks">
+              <div class="icon icon-info"> <i class="fab fa-soundcloud"></i> </div>
+              </a> </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Silent Generation
+              </h4>
+              <p>Urbana, IL</p>
+              <a href="https://todayschildren.bandcamp.com/releases">
+              <div class="icon icon-info"> <i class="fab fa-soundcloud"></i> </div>
+              </a> </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Feed the Monkeys
+              </h4>
+              <p>Chicago, IL</p>
+              <a href="https://open.spotify.com/artist/1Y4Xglb7NUta2OsKRgUGPI?si=gwI9FXRiSh6dbgzvOzQydg">
+              <div class="icon icon-info"> <i class="fab fa-spotify"></i> </div>
+              </a> </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Retirement Party
+              </h4>
+              <p>Chicago, IL</p>
+              <a href="https://open.spotify.com/artist/6scS2RlUYZHwgNWfMfviOL?si=4_znWk0NQ2mfZxj0Qi9skg">
+              <div class="icon icon-info"> <i class="fab fa-soundcloud"></i> </div>
+              </a> </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <h2 class="info-title">
+              Caving
+              </h4>
+              <p>Thayer, Indiana</p>
+              <a href="https://open.spotify.com/artist/19ao2GrHGdWlJOII3Ijvm5?si=LDJQswzqSXCfpYkIMiOmcg">
+              <div class="icon icon-info"> <i class="fab fa-spotify"></i> </div>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--     *********    END FEATURES 5      *********      --> 
+  
+  <!--     *********     FEATURES 5      *********      -->
+  
+  <div class="section section-overview">
+    <div class="features-5"  style="background-image: url('assets/assets-for-demo/features-5.jpg')">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h2 class="title">FAQ</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="info">
+              <div class="icon"> <i class="fas fa-heart"></i> </div>
+              <h4 class="info-title">What is flor fest?</h4>
+              <p>flor fest is a new concept for a festival to unite all of the local DIY/emo bands from the Midwest area for a festival. It will serve as a fun environment for high school and college students to enjoy great music. Majority of the profit will go towards The Trevor Project (a hotline for LGBTQ+ members to get help from professional counselors).
+
+</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info">
+              <div class="icon"> <i class="fas fa-hospital"></i> </div>
+              <h4 class="info-title">Safety at flor fest</h4>
+              <p>We want every fan to feel safe at the festival. flor fest will take safety measures to keep the event safe. Specific questions regarding safety, security, medical, and any others can be directed to admin@florfestcu.com. If you have an immediate need while on-site seek out any festival staffer, police, fire, or security.
+</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info">
+              <div class="icon"> <i class="fab fa-lyft"></i> </div>
+              <h4 class="info-title">Transportation</h4>
+              <p>We have partnered with Lyft to provide people with discount codes as a transportation method. However, the MTD buses will be providing a safe experience as well. We do not recommend driving in group smaller than four people. <br> <br><br></p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info">
+              <div class="icon"> <i class="fas fa-money-bill"></i> </div>
+              <h4 class="info-title">Save Money</h4>
+              <p>Buying your ticket before the show helps us collect the proper analytics on how many people we should expect. For this reason, we will provide lower ticket pricing for those who choose to buy their tickets at least a week before the festival. <br> <br><br></p>
+            </div>
+          </div>
+        </div>
+                <div class="row">
+          <div class="col-sm-3">
+            <div class="info">
+              <div class="icon"> <i class="fas fa-shopping-cart"></i> </div>
+              <h4 class="info-title">Merch</h4>
+              <p>Yes! You can find band merch for any bands that decide to participate in our sales. We will only be taking Venmo and Cash for band merch sales. For festival merch, it is yet to be determined how many t-shirts will be ordered for the festival beforehand :(. We'll keep you all updated! Therefore, it is best to get merch guaranteed through our pre-order bundles.
+</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info">
+              <div class="icon"> <i class="fas fa-location-arrow"></i> </div>
+              <h4 class="info-title">Location</h4>
+              <p>The festival will be hosted at the Urbana-Champaign Independent Media Center (202 S Broadway Ave, Urbana, IL 61801).
+
+</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info">
+              <div class="icon"> <i class="fas fa-cubes"></i></i></i> </div>
+              <h4 class="info-title">What is the shipping time for merch?</h4>
+              <p>Most merch orders will printed out within 3 business days. It will then take 5-7 business days to ship!</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info">
+              <div class="icon"> <i class="fas fa-beer"></i> </div>
+              <h4 class="info-title">Will alcolic drinks be served?</h4>
+              <p>Unfornately, we are not going to be able to receive a liquor license for the first year of our festival. However, we won't stop you from bringing booze yourself if you're 21+.
+
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+<footer class="footer footer-white">
+  <div class="container"> <a class="footer-brand" href="index.html">flor fest</a>
+    <ul class="pull-center">
+      <li> <a href="http://www.edgarcuevas.me/" target="_blank"> Designed by Edgar Cuevas </a> </li>
+    </ul>
+    <ul class="social-buttons pull-right">
+      <li> <a href="https://www.facebook.com/" target="_blank" class="btn btn-just-icon btn-simple btn-dribbble"> <i class="fab fa-facebook"></i> </a> </li>
+      <li> <a href="https://www.instagram.com/" target="_blank" class="btn btn-just-icon btn-simple btn-instagram"> <i class="fab fa-instagram"></i> </a> </li>
+    </ul>
+  </div>
+</footer>
+
+<!--     *********    END PRICING 5      *********      -->
+</body>
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/material.min.js"></script>
+
+<!--    Plugin for Date Time Picker and Full Calendar Plugin   -->
+<script src="assets/js/moment.min.js"></script>
+
+<!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/   -->
+<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker   -->
+<script src="assets/js/bootstrap-datetimepicker.js" type="text/javascript"></script>
+
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="assets/js/bootstrap-selectpicker.js" type="text/javascript"></script>
+
+<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/  -->
+<script src="assets/js/bootstrap-tagsinput.js"></script>
+
+<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput   -->
+<script src="assets/js/jasny-bootstrap.min.js"></script>
+
+<!--    Plugin For Google Maps   -->
+<script  type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
+<script src="assets/js/material-kit.js?v=1.2.1" type="text/javascript"></script>
+
+<!-- Demo Purpose, JS For Demo Purpose, Don't Include it in your project -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">
+		var $section_features = '';
+		$().ready(function(){
+
+		});
+	</script>
 </html>
