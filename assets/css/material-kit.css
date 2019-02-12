@@ -6718,7 +6718,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
     position: relative;
 }
 
-.header-filter[filter-color="purple"]:after, .header-filter[filter-color="primary"]:after {
+.header-filter[filter-color="purple"]:after, .header-filter[filter-color="secondary"]:after {
     background: rgba(225, 190, 231, 0.56);
     /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(60deg, rgba(225, 190, 231, 0.56), rgba(186, 104, 200, 0.95));
@@ -6783,7 +6783,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
     /* Standard syntax */
 }
 
-.header-filter[filter-color="rose"]:after {
+.header-filter[filter-color="rose"]:after,.header-filter[filter-color="primary"]:after {
     background: rgba(248, 187, 208, 0.56);
     /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(60deg, rgba(248, 187, 208, 0.56), rgba(240, 98, 146, 0.95));
@@ -8497,10 +8497,15 @@ select.selectpicker {
 
 .presentation-page .header-filter:after,
 .index-page .header-filter:after {
-    background: rgba(132, 13, 121, 0.88);
-    background: linear-gradient(45deg, rgba(132, 13, 121, 0.88) 0%, rgba(208, 44, 180, 0.31) 100%);
-    background: -moz-linear-gradient(135deg, rgba(132, 13, 121, 0.88) 0%, rgba(208, 44, 180, 0.31) 100%);
-    background: -webkit-linear-gradient(135deg, rgba(132, 13, 121, 0.88) 0%, rgba(208, 44, 180, 0.31) 100%);
+    background: rgba(255, 3, 62, 0.56);
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(60deg, rgba(255, 3, 62, 0.56), rgba(182, 0, 58, 0.78));
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(60deg, rgba(255, 3, 62, 0.56), rgba(182, 0, 58, 0.78));
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(60deg, rgba(255, 3, 62, 0.56), rgba(182, 0, 58, 0.78));
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(60deg, rgba(255, 3, 62, 0.56), rgba(182, 0, 58, 0.78));
 }
 
 .presentation-page h4.description,

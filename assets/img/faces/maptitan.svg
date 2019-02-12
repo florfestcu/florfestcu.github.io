@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 1024 889" width="1024" height="889">
+	<defs>
+    	<clipPath id="_clipPath_H5rSVBgzq8UKEeo3Rf7J7a72RB2Oij2F">
+        	<rect width="1024" height="889"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_H5rSVBgzq8UKEeo3Rf7J7a72RB2Oij2F)">
+        <g id="background">
+            <path d="M 0 889 L 0 180 L 256 0 L 512 180 L 768 0 L 1024 180 L 1024 889 L 768 709 L 512 889 L 256 709 Z " fill="#e53838"/>
+       	</g>
+        <g id="Group">
+        	<linearGradient id="_lgradient_0" x1="100%" y1="50%" x2="0%" y2="50%">
+            	<stop offset="0%" stop-opacity="1" style="stop-color:rgb(219,54,54)"/>
+                <stop offset="100%" stop-opacity="1" style="stop-color:rgb(239,58,58)"/>
+            </linearGradient>
+            <path d=" M 0 889 L 0 180 L 256 0 L 256 709 L 0 889 Z " fill="url(#_lgradient_0)"/>
+            <linearGradient id="_lgradient_1" x1="100%" y1="50%" x2="0%" y2="50%">
+            	<stop offset="0%" stop-opacity="1" style="stop-color:rgb(219,54,54)"/>
+                <stop offset="100%" stop-opacity="1" style="stop-color:rgb(239,58,58)"/>
+            </linearGradient>
+           	<path d=" M 512 889 L 512 180 L 256 0 L 256 709 L 512 889 Z " fill="url(#_lgradient_1)"/>
+            <linearGradient id="_lgradient_2" x1="100%" y1="50%" x2="0%" y2="50%">
+            	<stop offset="0%" stop-opacity="1" style="stop-color:rgb(219,54,54)"/>
+                <stop offset="100%" stop-opacity="1" style="stop-color:rgb(239,58,58)"/>
+            </linearGradient>
+           	<path d=" M 512 889 L 512 180 L 768 0 L 768 709 L 512 889 Z " fill="url(#_lgradient_2)"/>
+            <linearGradient id="_lgradient_3" x1="100%" y1="50%" x2="0%" y2="50%">
+            	<stop offset="0%" stop-opacity="1" style="stop-color:rgb(219,54,54)"/>
+                <stop offset="100%" stop-opacity="1" style="stop-color:rgb(239,58,58)"/>
+            </linearGradient>
+            <path d=" M 1024 889 L 1024 180 L 768 0 L 768 709 L 1024 889 Z " fill="url(#_lgradient_3)"/>
+        </g>
+    </g>
+</svg>
