@@ -70,59 +70,36 @@
 <script src="assets/js/bootstrap-tagsinput.js"></script>
 <script src="assets/js/timetable.js"></script>
 <script>
-      var timetable = new Timetable();
-
-      timetable.setScope(15,24)
-
-      timetable.addLocations(['Stage 1', 'Stage 2']);
-
-      timetable.addEvent('Dakota Kay', 'Stage 2', new Date(2019,5,05,16,00), new Date(2019,5,05,16,15), );
-		      timetable.addEvent('Karena', 'Stage 2', new Date(2019,5,05,16,15), new Date(2019,5,05,16,30), );
-      timetable.addEvent('Patrick Fang', 'Stage 2', new Date(2019,5,05,16,30), new Date(2019,5,05,16,45), );
-      timetable.addEvent('Anika Emily', 'Stage 2', new Date(2019,5,05,16,45), new Date(2019,5,05,17,00), );
-	
+    var timetable = new Timetable();
+    timetable.setScope(16,0)
+    timetable.addLocations(['Stage 1', 'Stage 2']);
+    timetable.addEvent('Dakota Kay', 'Stage 2', new Date(2019,5,05,16,00), new Date(2019,5,05,16,15), );
+	timetable.addEvent('Karena', 'Stage 2', new Date(2019,5,05,16,15), new Date(2019,5,05,16,30), );
+	timetable.addEvent('Patrick Fang', 'Stage 2', new Date(2019,5,05,16,30), new Date(2019,5,05,16,45), );
+	timetable.addEvent('Anika Emily', 'Stage 2', new Date(2019,5,05,16,45), new Date(2019,5,05,17,00), );
 	timetable.addEvent('Jake Fava', 'Stage 2', new Date(2019,5,05,17,00), new Date(2019,5,05,17,15), );
 	timetable.addEvent('Of Course You Realize...', 'Stage 2', new Date(2019,5,05,17,15), new Date(2019,5,05,17,30), );
 	timetable.addEvent('Dani Avila', 'Stage 2', new Date(2019,5,05,17,30), new Date(2019,5,05,17,35), );
-	
-	
-		timetable.addEvent('Warm Darn', 'Stage 1', new Date(2019,5,05,17,35), new Date(2019,5,05,17,55), );
+	timetable.addEvent('Warm Darn', 'Stage 1', new Date(2019,5,05,17,35), new Date(2019,5,05,17,55), );
 	timetable.addEvent('Ben Cheslow', 'Stage 2', new Date(2019,5,05,17,55), new Date(2019,5,05,18,00), );
 	timetable.addEvent('Kidd Soul', 'Stage 2', new Date(2019,5,05,18,00), new Date(2019,5,05,18,15), );
 	timetable.addEvent('Boxout', 'Stage 1', new Date(2019,5,05,18,15), new Date(2019,5,05,18,40), );
-	
-	
-			timetable.addEvent('Kathleen Dowling', 'Stage 1', new Date(2019,5,05,18,40), new Date(2019,5,05,18,45), );
-				
-	timetable.addEvent('Edgar Cuevas', 'Stage 1', new Date(2019,5,05,18,45), new Date(2019,5,05,18,55), );
-	
-		timetable.addEvent('Ex Cathedra ', 'Stage 2', new Date(2019,5,05,18,55), new Date(2019,5,05,19,15), );
-		timetable.addEvent('Tarun Mahajan', 'Stage 2', new Date(2019,5,05,19,15), new Date(2019,5,05,19,20), );
-		timetable.addEvent('The Vinyl Sides ', 'Stage 1', new Date(2019,5,05,19,20), new Date(2019,5,05,19,40), );
-	
-			timetable.addEvent('Lost Wilderness ', 'Stage 1', new Date(2019,5,05,19,40), new Date(2019,5,05,20,05), );
-	
-			timetable.addEvent('Clockwork Owl', 'Stage 2', new Date(2019,5,05,20,05), new Date(2019,5,05,20,25), );
-	
-	
-				timetable.addEvent('Feed the Monkeys ', 'Stage 1', new Date(2019,5,05,20,25), new Date(2019,5,05,20,50), );
-	
-	
-					timetable.addEvent('From Circumstances', 'Stage 2', new Date(2019,5,05,20,50), new Date(2019,5,05,21,10), );
-	
-			timetable.addEvent('Silent Generation', 'Stage 1', new Date(2019,5,05,21,10), new Date(2019,5,05,21,35), );
-	
-		
-					timetable.addEvent('Wes Harmony', 'Stage 2', new Date(2019,5,05,21,35), new Date(2019,5,05,21,55), );
-	
-			timetable.addEvent('This is a Stick Up!', 'Stage 1', new Date(2019,5,05,21,55), new Date(2019,5,05,22,05), );
-		
-	
-			timetable.addEvent('Todays Children', 'Stage 1', new Date(2019,5,05,22,10), new Date(2019,5,05,22,30), );
-				timetable.addEvent('The Data Waves', 'Stage 1', new Date(2019,5,05,22,35), new Date(2019,5,05,23,25), );
-	
-	
-	
+	timetable.addEvent('Kathleen Dowling', 'Stage 1', new Date(2019,5,05,18,40), new Date(2019,5,05,18,45), );				
+	timetable.addEvent('Edgar Cuevas', 'Stage 1', new Date(2019,5,05,18,45), new Date(2019,5,05,18,55), );	
+	timetable.addEvent('Ex Cathedra ', 'Stage 2', new Date(2019,5,05,18,55), new Date(2019,5,05,19,15), );
+	timetable.addEvent('Tarun Mahajan', 'Stage 2', new Date(2019,5,05,19,15), new Date(2019,5,05,19,20), );
+	timetable.addEvent('The Vinyl Sides ', 'Stage 1', new Date(2019,5,05,19,20), new Date(2019,5,05,19,40), );
+	timetable.addEvent('Lost Wilderness ', 'Stage 1', new Date(2019,5,05,19,40), new Date(2019,5,05,20,05), );
+	timetable.addEvent('Clockwork Owl', 'Stage 2', new Date(2019,5,05,20,05), new Date(2019,5,05,20,25), );
+	timetable.addEvent('Feed the Monkeys ', 'Stage 1', new Date(2019,5,05,20,25), new Date(2019,5,05,20,50), );
+	timetable.addEvent('From Circumstances', 'Stage 2', new Date(2019,5,05,20,50), new Date(2019,5,05,21,10), );
+	timetable.addEvent('Silent Generation', 'Stage 1', new Date(2019,5,05,21,10), new Date(2019,5,05,21,35), );
+	timetable.addEvent('Wes Harmony', 'Stage 2', new Date(2019,5,05,21,35), new Date(2019,5,05,21,55), );	
+	timetable.addEvent('This is a Stick Up!', 'Stage 1', new Date(2019,5,05,21,55), new Date(2019,5,05,22,05), );
+	timetable.addEvent('Todays Children', 'Stage 1', new Date(2019,5,05,22,10), new Date(2019,5,05,22,30), );
+	timetable.addEvent('The Data Waves', 'Stage 1', new Date(2019,5,05,22,35), new Date(2019,5,05,23,25), );
+
+
 
 
 
